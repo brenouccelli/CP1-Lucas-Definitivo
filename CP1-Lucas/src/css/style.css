@@ -1,0 +1,139 @@
+/* Reset Básico e Configuração Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+body {
+    background-color: #f9f8f6;
+    color: #332f2f;
+    line-height: 1.6;
+}
+ 
+/* Cabeçalho e Navegação */
+header {
+    background-color: #4a0e17;
+    /* Tom de vinho/borgonha */
+    color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    flex-wrap: wrap;
+}
+ 
+.logo h1 {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    color: #d4af37;
+    /* Detalhe em tom dourado */
+    margin: 0;
+}
+ 
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+ 
+nav ul li a {
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+ 
+ 
+/* Conteúdo Principal */
+main {
+    padding: 40px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ 
+section {
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+ 
+h2 {
+    font-family: 'Georgia', serif;
+    font-size: 28px;
+    color: #4a0e17;
+    margin-bottom: 20px;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+ 
+/* Secção Sobre */
+#sobre p {
+    font-size: 16px;
+    color: #555555;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 1.8;
+}
+ 
+/* Secção de Destaques / Cards */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+ 
+.card {
+    width: 280px;
+    background-color: #fafafa;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 20px;
+}
+ 
+ 
+.card img {
+    width: 100%;
+    max-height: 180px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+ 
+.card h3 {
+    font-size: 18px;
+    color: #4a0e17;
+    margin-bottom: 10px;
+}
+ 
+.card p {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 20px;
+    text-align: center;
+}
+ 
+.card button {
+    background-color: #4a0e17;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    width: 100%;
+}
