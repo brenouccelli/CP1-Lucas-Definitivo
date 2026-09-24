@@ -12,13 +12,12 @@ contato.html (Contato): Página inicial do portal. Apresenta os vinhos de destaq
  
 catalogo.html (Catálogo de Vinhos): Onde o usuário pode explorar a variedade de rótulos. Conta com filtros intuitivos (por tipo de uva, país, preço e harmonização) para ajudar na decisão.
  
-produtos.html (Detalhes do Vinho): A página que simula o "vendedor especialista". Traz informações detalhadas sobre a safra, região, dicas d    e harmonização com alimentos e sugestões de consumo.
+vinhos.html (Detalhes do Vinho): A página que simula o "vendedor especialista". Traz informações detalhadas sobre a safra, região, dicas d    e harmonização com alimentos e sugestões de consumo.
  
 harmonizacao.html (Harmonizacao dos vinhos): Ambiente seguro e claro para a finalização do pedido, listando os itens escolhidos e o valor total.
  
 sobre.html (Nossa História): Página institucional contando a trajetória do sr. Giulio e da Bianca, além de destacar os diferenciais da loja, como a armazenagem controlada dos vinhos.
  
-(Nota: Edite a estrutura acima caso as páginas do seu projeto tenham nomes ou funções diferentes).
  
 -Integrantes
  
