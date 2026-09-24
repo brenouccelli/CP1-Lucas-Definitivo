@@ -28,8 +28,7 @@ Murillo Kirsten Minamoto - RM576741
  
 Heitor Zanelato - RM576542
 
--Link para o site (GitHub Pages)
+https://github.com/brenouccelli/CP1-Lucas-Definitivo
  
-O projeto encontra-se publicado e pode ser acessado através do link abaixo:
+
  
-[Insira aqui o link do seu GitHub Pages]
